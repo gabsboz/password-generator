@@ -58,14 +58,16 @@ button:hover {
 
 
 #result {
-    color: rgb(68, 4, 4);
-    font-size: 14px;
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    font-family: monospace;
-    word-break: break-word;
-    white-space: pre-wrap;
+    display: block;
+    width: 80%; 
+    max-width: 500px; 
     min-height: 40px;
+    margin: 10px auto; 
+    background-color: white;
+    border: 1px solid rgb(68, 4, 4);
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    word-break: break-word;
+    border-radius: 5px;
 }
